@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: root
+    password:
+    url: jdbc:mysql://localhost:3307/hotel_management_db
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+#        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+
+project:
+  photos: photos/
+  secretKey: liverpoolmanchesterunitedarsenalnothinghamforest
+
+base:
+  url: "http://localhost:8080"
+
+
